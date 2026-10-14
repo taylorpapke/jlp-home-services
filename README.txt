@@ -29,7 +29,7 @@ IDs for name, email, and project comments.
 Development
 -----------
 
-This is a static HTML, Sass, CSS, and JavaScript website. It can be previewed
+This is a static HTML, Sass, and CSS website. It can be previewed
 with any static web server. For example:
 
     python3 -m http.server 8000
