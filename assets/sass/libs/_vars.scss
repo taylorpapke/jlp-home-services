@@ -33,13 +33,13 @@
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
-		fg:					rgba(255,255,255,0.55),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.35),
-		border:				rgba(255,255,255,0.15),
-		border-bg:			rgba(255,255,255,0.05),
+		bg:					#ffffff,
+		bg-alt:				#f5f3f8,
+		fg:					rgba(49,36,80,0.8),
+		fg-bold:			#312450,
+		fg-light:			rgba(49,36,80,0.65),
+		border:				rgba(49,36,80,0.2),
+		border-bg:			rgba(49,36,80,0.05),
 		accent1:			#5e42a6,
 		accent1-alt:		darken(#5e42a6, 10),
 		accent2:			#5052b5,

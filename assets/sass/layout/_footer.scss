@@ -28,6 +28,11 @@
 				font-size: 0.8em;
 				color: _palette(border);
 			}
+
+			.menu,
+			.menu li {
+				color: #000000;
+			}
 		}
 
 		#header + #wrapper + & {

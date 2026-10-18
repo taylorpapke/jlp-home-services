@@ -1,33 +1,45 @@
-Hyperspace by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+JLP Home Services Website
+=========================
 
+This repository contains the public website for JLP Home Services, a locally
+owned home improvement company serving Nashville, Clarksville, and Franklin,
+Tennessee. Rural Renovations is the company's Ohio division.
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
+The site provides information about the company and its services, including
+deck building, landscaping, painting, flooring, roofing and siding, bathroom
+and kitchen renovations, property preservation, winter services, investor
+rehab work, and related home maintenance.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Pages
+------
 
-(* = not included)
+* index.html - Welcome page with project photos, BBB information, and customer
+  testimonials.
+* about.html - Company background and the Rural Renovations Ohio division.
+* services.html - Complete list of available services.
+* contact.html - Quote request form.
 
-AJ
-aj@lkn.io | @ajlkn
+Contact form
+------------
 
+The contact page uses a custom-styled form that submits to the existing Google
+Form endpoint. The form fields are mapped to the configured Google Form entry
+IDs for name, email, and project comments.
 
-Credits:
+Development
+-----------
 
-	Demo Images:
-		Unsplash (unsplash.com)
+This is a static HTML, Sass, and CSS website. It can be previewed
+with any static web server. For example:
 
-	Icons:
-		Font Awesome (fontawesome.io)
+    python3 -m http.server 8000
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Then open http://localhost:8000/ in a browser.
+
+Styles are maintained in assets/sass and the compiled stylesheet is available
+at assets/css/main.css.
+
+Copyright
+---------
+
+© 2025 JLP Home Services. All rights reserved.
